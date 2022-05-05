@@ -14,7 +14,7 @@ export default function Header() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="nav nav-tabs">
                             <li className="nav-item">
-                                <NavLink className="nav-link link-light" aria-current="page" to="/acessar-conta">Acessar conta!</NavLink>
+                                <NavLink className="nav-link link-light" aria-current="page" to="/acessar-conta">Acessar conta</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link link-light" aria-current="page" to="/criar-conta">Criar conta de usuário</NavLink>

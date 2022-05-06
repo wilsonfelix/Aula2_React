@@ -7,7 +7,7 @@ import PasswordPage from '../pages/PasswordPage';
 const Main = () => (
     <div className="container mt-4">
         <Routes>
-         <Route path="/acessar-conta" exact element={<LoginPage />} />
+         <Route path="/" exact element={<LoginPage />} />
          <Route path="/criar-conta" element={<RegisterPage />} />
          <Route path="/esqueci-minha-senha" element={<PasswordPage />} />
         </Routes>

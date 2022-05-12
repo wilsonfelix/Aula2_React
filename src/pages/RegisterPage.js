@@ -1,4 +1,5 @@
 import React from 'react';
+import RegisterForm from '../components/forms/RegisterForm';
 
 const RegisterPage = () => (
     <div className="row">
@@ -7,6 +8,7 @@ const RegisterPage = () => (
                 <div className="card-body">
                     <h5 class="card-title">Criar conta de usuário</h5>
                     <p>Preencha os campos abaixo para criar uma conta de acesso.</p>
+                    <RegisterForm />
                 </div>
             </div>
         </div>

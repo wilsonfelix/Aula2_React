@@ -1,13 +1,14 @@
 .bg-primary {
- 
-  background-color:hsl(0, 100%, 45%) !important;
+  background: linear-gradient(#18698a, #3f87a6) !important;
+  /*background-blend-mode:hsl(214, 100%, 45%) !important;*/
 }
 
 body {
-  background-color:rgb(0, 34, 226) !important;
+  background: conic-gradient(from 0.25turn at 100% 200%, #1be2b0, 10deg, #3f87a6, 350deg, #c9e2b6) !important;
+  /*background-color:rgb(42, 153, 197) !important;*/
 }
 
 .bg-loxa {
   
-  background-color:hsl(115, 96%, 51%) !important;
+  background-color:hsl(0, 0%, 100%) !important;
 }
